@@ -36,6 +36,7 @@ public class Empleado {
 		}
 
 		
+		//Si los parametros introducidos son erroneos devolver -1	
 		if(primas==-1 || extras==-1) {
 			return -1;
 		}else {
@@ -46,8 +47,9 @@ public class Empleado {
 		
 	}
 	
+	
 	public static float calculoNominaNeta(float nominaBruta) {
-		float nominaNeta=0;
+		float nominaNeta=2;
 		if(nominaBruta<2100) {
 			nominaNeta=nominaBruta;
 		}else if(nominaBruta>2100 && nominaBruta<2500){
