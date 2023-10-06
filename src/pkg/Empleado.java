@@ -7,14 +7,14 @@ public class Empleado {
 		
 		float SalarioBase=0, primas=0, extras=0;
 		
-		//determinacion salario base
+		//calculo salario base
 		if(tipo==TipoEmpleado.Encargado) {
 			SalarioBase=2500;
 		}else if(tipo==TipoEmpleado.Vendedor) {
 			SalarioBase=2000;
 		}
 		
-		//determinacion prima
+		//calculo prima
 		
 		if(ventasMes>=1500) {
 			primas=200;
